@@ -26,7 +26,7 @@ This problem, we explained alcohol consumption based on the seating of the consu
 
 $H_0$: There is no difference in alcohol consumption based on where you sit  
 
-$H_0$: There is a difference in alcohol consumption based on where you sit
+$H_A$: There is a difference in alcohol consumption based on where you sit
 
 
 ```{r}
@@ -37,7 +37,7 @@ basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 ```{r}
 basicCN + geom_boxplot()
 ```
-  
+  Based on the boxplot, people that sit in the backseats tend to consume more alcohol than the rest of the seats.
   
 ### get fancy  
 
